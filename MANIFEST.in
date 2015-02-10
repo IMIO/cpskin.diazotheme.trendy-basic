@@ -1,0 +1,3 @@
+graft cpskin
+graft docs/
+include *.rst *.in

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="trendybasic theme">
+
+    <object name="trendybasic_images"
+            meta_type="Filesystem Directory View"
+            directory="cpskin.diazotheme.trendybasic:skins/trendybasic_images"/>
+
+ <skin-path name="trendybasic theme"
+            based-on="Sunburst Theme">
+    <layer name="trendybasic_images"
+           insert-after="custom"/>
+ </skin-path>
+
+</object>
