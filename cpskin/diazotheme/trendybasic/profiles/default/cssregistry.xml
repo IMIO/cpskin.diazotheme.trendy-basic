@@ -6,7 +6,7 @@
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" 
-    expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.trendybasic"
+    expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.trendybasic'"
     applyPrefix="True"
     insert-before="ploneCustom.css" />
 
