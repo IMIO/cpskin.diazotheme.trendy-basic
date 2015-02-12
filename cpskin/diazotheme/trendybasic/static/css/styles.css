@@ -73,7 +73,7 @@ margin: 0;
 }
 
 #portal-searchbox {
-    background-color: #bd0926;
+    background-color: #515151;
     margin:0.2em 0 1.2em;
     right: 0;
     top:0.5em;
@@ -273,18 +273,39 @@ div.width-3\:4 {
     margin-top:0;
 }
 
-
-.bloc-2 .titre-rss h2, .bloc-2 .bloc-rss:after,#content #accueil .bloc-2 .voir-tout {
+.bloc-2 .titre-rss h2, .bloc-2 .bloc-rss:after{
     color: #00a0c2;
 }
 
-.bloc-3 .titre-rss h2, .bloc-3 .bloc-rss:after,#content #accueil .bloc-3 .voir-tout {
-    color: #f87a00;
+#content #accueil .bloc-2 .voir-tout {
+    background-color: #00a0c2;
+    color:#ffffff;
+    padding: 0.2% 0.6%;
+    right: 0;
+    top: 0;
 }
 
-.results{
-    background-color: white;
-    border-top: 1px solid #dde2e4;
+.bloc-2 .results{
+    background-color:#ffffff;
+    border-bottom: 1px solid #00a0c2;
+    padding-top: 1em ;
+}
+
+.bloc-3 .titre-rss h2, .bloc-3 .bloc-rss:after {
+	color: #f87a00;
+}
+
+#content #accueil .bloc-3 .voir-tout {
+	background-color: #f87a00;
+	color:#ffffff;
+	padding: 0.2% 0.6%;
+	right: 0;
+	top: 0; 
+}
+
+.bloc-3 .results{
+    background-color:#ffffff;
+    border-bottom: 1px solid #f87a00;
     padding-top: 1em ;
 }
 
@@ -455,7 +476,7 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
 } 
 
 #portlet-gazette .context {
-    background-color: #ea6060;
+    background-color: #D60C2B;
     border: 1px solid #f74c4d;
     color: white;
 }
