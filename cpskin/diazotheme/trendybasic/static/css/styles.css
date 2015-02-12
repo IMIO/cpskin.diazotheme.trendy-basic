@@ -73,7 +73,7 @@ margin: 0;
 }
 
 #portal-searchbox {
-    background-color: #515151;
+    background-color: #777d89;
     margin:0.2em 0 1.2em;
     right: 0;
     top:0.5em;
@@ -127,7 +127,7 @@ margin: 0;
 }
 
 #portal-header #navWrapper {
-    background-color: #ffffff;
+    background-color:rgba(110, 110, 110, 0.2);
     margin:0 auto 1em;
     max-width: 1230px;
     padding: 0
@@ -195,6 +195,15 @@ margin: 0;
 	box-shadow: 0 2px 2px #6b6b6b;
 }
 
+/* --- Deux dernier onglets --- */
+
+#navWrapper #portal-globalnav li:nth-last-child(2) a, #navWrapper #portal-globalnav li:last-child a {
+    background-color: #777d89;
+    color: #ffffff;
+}
+
+/* --- Fin deux dernier onglets --- */
+
 /* --- Fin navigation --- */
 
 /* --- Faceted navigation --- */
@@ -214,7 +223,7 @@ margin: 0;
 }
 
 #content #viewlet-above-content-title ul li a:before {
-    color: #56C2CC;
+    color: #bd0926;
 }
 
 #content #viewlet-above-content-title ul li {
@@ -261,7 +270,7 @@ div.width-3\:4 {
     background-color: white;
     height: 667px;
     max-width: 1184px;
-    padding: 0 10px 1%;
+    padding: 1% 10px;
 }
 
 #portal-column-content #portal-breadcrumbs {
@@ -362,10 +371,9 @@ div.width-3\:4 {
 
 /* --- Portlet généraux --- */
 
-div.position-3\:4 {
-    background-color: #ffffff;
-    margin-left: -19.3%;
-    padding: 0.5em;
+.section-notheme div.position-3\:4 {
+    background-color: transparent;
+    margin-left: -17.8%;
 }
 
 dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
@@ -476,8 +484,8 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
 } 
 
 #portlet-gazette .context {
-    background-color: #D60C2B;
-    border: 1px solid #f74c4d;
+    background-color: #DB1331;
+    border: 1px solid #EA1233;
     color: white;
 }
 
