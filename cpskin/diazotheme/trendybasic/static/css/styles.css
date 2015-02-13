@@ -128,7 +128,7 @@ margin: 0;
 
 #portal-header #navWrapper {
     background-color:rgba(5, 5, 5, 0.2);
-    margin:0 auto 0 -0.1%;
+    margin:0 auto 0 0%;
     max-width: 1230px;
     padding: 0
 }
@@ -199,15 +199,12 @@ ul.navTreeLevel0 li a:hover {
     text-shadow: none;
 }
 
-.section-notheme #portal-header ul.navTreeLevel0 {
-    box-shadow: 0 4px 4px #6b6b6b;
-    position: absolute;
-    width: 98%;
-    max-width:1230px;
-}
-
 .section-notheme #portal-header .sf-menu ul.navTreeLevel1{
 	box-shadow: 0 2px 2px #6b6b6b;
+}
+
+.sf-menu ul.navTreeLevel1{
+	margin-top:0;
 }
 
 /* --- Deux dernier onglets --- */
@@ -355,7 +352,7 @@ ul.navTreeLevel0 li a:hover {
 
 .section-notheme div.width-3\:4 {
     background-color: #ffffff;
-    margin-left: -101%;
+    margin-left: -100.9%;
     padding: 0.5%;
 }
 
@@ -402,7 +399,7 @@ ul.navTreeLevel0 li a:hover {
 
 /* --- Portlet généraux --- */
 
-dl.portlet {
+#portal-columns dl.portlet {
     border-bottom: medium none;
 }
 
@@ -561,6 +558,7 @@ dl.portlet ul.navTree .navTreeCurrentItem,dl.portlet ul.navTree li a:hover{
 
 #portal-column-one .portletNavigationTree dd ul li a {
     padding: 0.5em 0 0.5em 0.5em !important;
+    text-shadow:none;
 }
 
 /* --- Fin portlet navigation --- */
