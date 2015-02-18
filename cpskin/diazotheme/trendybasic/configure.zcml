@@ -27,4 +27,11 @@
         recursive="True"
         />
 
+    <genericsetup:importStep
+        name="cpskin.diazotheme.trendybasic"
+        title="cpskin.diazotheme.trendybasic special import handlers"
+        description=""
+        handler=".setuphandlers.setup_various"
+        />
+
 </configure>
