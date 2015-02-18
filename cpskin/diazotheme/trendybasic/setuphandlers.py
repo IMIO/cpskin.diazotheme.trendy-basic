@@ -2,6 +2,7 @@
 import os
 from plone import api
 IMAGESHEADER = 'images-header'
+IMAGESHEADERTITLE = 'Images header'
 
 
 def setup_various(context):
@@ -13,11 +14,11 @@ def setup_various(context):
     if not hasattr(portal, IMAGESHEADER):
         ih_folder = api.content.create(
             type='Folder',
-            title='Image header',
+            title=IMAGESHEADERTITLE,
             id=IMAGESHEADER,
             container=portal
         )
-        ih_folder.setTitle('Image header')
+        ih_folder.setTitle(IMAGESHEADERTITLE)
         ih_folder.reindexObject()
         add_images_from_file(ih_folder, 'header.jpg')
         add_images_from_file(ih_folder, 'header-t1.jpg')
