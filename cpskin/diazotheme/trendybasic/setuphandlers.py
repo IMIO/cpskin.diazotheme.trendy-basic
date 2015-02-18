@@ -25,6 +25,7 @@ def setup_various(context):
         add_images_from_file(ih_folder, 'header-t2.jpg')
         add_images_from_file(ih_folder, 'header-t3.jpg')
         add_images_from_file(ih_folder, 'header-t4.jpg')
+        add_images_from_file(ih_folder, 'header-t5.jpg')
 
 
 def add_images_from_file(context, filename):

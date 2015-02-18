@@ -1,27 +1,28 @@
 #visual-portal-wrapper {
+    background-image: url("/images-header/header.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     height: 490px;
 }
 
 .section-theme1 #visual-portal-wrapper {
-    background-image: url("/images/header-t1.jpg");
+    background-image: url("/images-header/header-t1.jpg");
 }
 
 .section-theme2 #visual-portal-wrapper {
-    background-image: url("/images/header-t2.jpg");
+    background-image: url("/images-header/header-t2.jpg");
 }
 
 .section-theme3 #visual-portal-wrapper {
-    background-image: url("/images/header-t3.jpg");
+    background-image: url("/images-header/header-t3.jpg");
 }
 
 .section-theme4 #visual-portal-wrapper {
-    background-image: url("/images/header-t4.jpg");
+    background-image: url("/images-header/header-t4.jpg");
 }
 
 .section-theme5 #visual-portal-wrapper {
-    background-image: url("/images/header-t5.jpg");
+    background-image: url("/images-header/header-t5.jpg");
 }
 
 
