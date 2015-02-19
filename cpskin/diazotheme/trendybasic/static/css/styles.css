@@ -395,7 +395,7 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
 /* --- Couleur deux premiers portlets --- */
 
 #portal-column-two aside > div:first-child dl.portlet .portletHeader,
-#portal-column-two aside > div:nth-child(2) dl.portlet .portletHeader {
+#portal-column-two aside > div:nth-child(2) dl.portlet .portletHeader{
 	color:#ffffff;
 	padding-top: 1em;
 }
@@ -403,12 +403,17 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
 #portal-column-two aside > div:first-child dl.portlet dd,
 #portal-column-two aside > div:first-child dl.portlet dd a,
 #portal-column-two aside > div:nth-child(2) dl.portlet dd,
-#portal-column-two aside > div:nth-child(2) dl.portlet dd a{
+#portal-column-two aside > div:nth-child(2) dl.portlet dd a,
+#portal-column-two aside > div:first-child a,
+#portal-column-two aside > div:nth-child(2) a{
 	color:white;
+	
 }
 
 #portal-column-two aside > div:first-child dl.portlet dd a:hover,
-#portal-column-two aside > div:nth-child(2) dl.portlet dd a:hover{
+#portal-column-two aside > div:nth-child(2) dl.portlet dd a:hover,
+#portal-column-two aside > div:first-child a:hover,
+#portal-column-two aside > div:nth-child(2) a:hover{
 	color:white !important;
 	text-decoration:underline;
 }
@@ -429,6 +434,7 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
     color: white;    
 }
 
+
 #portal-column-two aside > div:first-child dl.portlet dt,
 #portal-column-two aside > div:nth-child(2) dl.portlet dt {
 	border-bottom:1px solid #ffffff;
@@ -441,6 +447,7 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
     color: white;
     margin-bottom:1em;  
 }
+
 
 #portal-column-two aside > div:nth-child(2) dl.portlet .portletHeader a{
 	background-color:#be5045;
@@ -456,6 +463,15 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
 	padding:0;
 }
 
+#portal-column-two aside > div:first-child div ,
+#portal-column-two aside > div:nth-child(2) div {
+	padding:0.5em;
+}
+
+#portal-column-two aside > div:first-child dd div, 
+#portal-column-two aside > div:nth-child(2) dd div{
+	padding:0;
+}
 /* --- Fin couleur deux premiers portlets --- */
 
 /* --- Icone premier portlet --- */
@@ -470,6 +486,7 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
 #portal-column-two aside > div:nth-child(2) .horloge{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding: 0.3em 0 0.3em 1.75em;
+    margin-bottom:0.5em;
 }
 
 #portal-column-two aside > div:first-child .adresse:before,
@@ -621,9 +638,9 @@ dl.portlet ul.navTree .navTreeCurrentItem,dl.portlet ul.navTree li a:hover{
 }
 
 #footer-sitemap div.footer-static {
-    background-color: #7f2f2f2;
+    background-color: #f2f2f2;
     border-left:none;
-    color:#ffffff;
+    color:#2D2D2D;
     float: left;
     margin-left:0;
     margin-right:0.25em;
@@ -635,6 +652,6 @@ dl.portlet ul.navTree .navTreeCurrentItem,dl.portlet ul.navTree li a:hover{
 }
 
 #footer-sitemap div.footer-static h2 {
-    color: #475055;
+    color: #1b1b1b;
 }
 /* >>> FIN FOOTER <<< */
