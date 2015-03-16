@@ -154,7 +154,6 @@ margin: 0;
     border-style: solid;
     border-width: 0 2px 0 0;
     margin-right: 0;
-     padding: 1em 2em 0.75em;
 }
 
 #navWrapper #portal-globalnav .selected a:hover, #navWrapper #portal-globalnav a:hover,#navWrapper #portaltab-index_html.selected a {
@@ -207,24 +206,6 @@ margin: 0;
 }
 
 /* --- Fin navigation --- */
-
-/* --- Deux dernier onglets --- */ 	 	
-		 	
-#navWrapper #portal-globalnav li:nth-last-child(2) a, #navWrapper #portal-globalnav li:last-child a,
-#navWrapper #portal-globalnav li:nth-last-child(2) .selected a, #navWrapper #portal-globalnav li:last-child .selected a { 	 	
-	background-color: #f4f4f4; 	 	
-}
-
-#navWrapper #portal-globalnav li:nth-last-child(2) a:hover, #navWrapper #portal-globalnav li:last-child a:hover{ 	 	
-	background-color:#317D9B; 	 	
-} 	 	
-		 	
-#navWrapper #portal-globalnav li:nth-last-child(2) .activated, #navWrapper #portal-globalnav li:last-child .activated{ 	 	
-	background-color: #317D9B; 	 	
-	color: #ffffff; 	 	
-} 
-
-/* --- Fin deux dernier onglets --- */ 	
 
 /* --- Faceted navigation --- */
 
