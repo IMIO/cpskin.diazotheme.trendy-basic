@@ -1,1 +1,2 @@
 - IMIO, support@imio.be
+- Laurent Lasudry [Affinitic]
