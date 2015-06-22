@@ -205,6 +205,14 @@ margin: 0;
 	box-shadow: 0 2px 2px #6b6b6b;
 }
 
+#portal-globalnav #portaltab-index_html a::before{
+	color:#000000;
+}
+
+#portal-globalnav #portaltab-index_html.selected a::before, #portal-globalnav #portaltab-index_html.plain a:hover::before{
+	color:#ffffff;
+}
+
 /* --- Fin navigation --- */
 
 /* --- Faceted navigation --- */
@@ -467,6 +475,7 @@ dl.portlet dt, .portletWrapper dl.portlet a, .portletFooter,.portletFooter a{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding: 0.3em 0 0.3em 1.75em;
     margin-bottom:0.5em;
+    font-family:fontello;
 }
 
 #portal-column-two aside > div:first-child .adresse:before,
