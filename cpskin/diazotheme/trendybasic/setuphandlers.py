@@ -28,17 +28,25 @@ def setup_various(context):
         add_images_from_file(ih_folder, 'header-t5.jpg')
 
 
-def add_images_from_file(context, filename):
+def add_images_from_file(folder, filename):
     datapath = os.path.join(os.path.dirname(__file__), 'static', 'images')
     filepath = os.path.join(datapath, 'header.jpg')
     fd = open(filepath, 'rb')
-    if not context.hasObject(filename):
+    if not folder.hasObject(filename):
         image = api.content.create(
             type='Image',
             title=filename,
-            container=context,
-            file=fd
+            container=folder,
         )
-        image.setTitle(filename)
+        image.image = load_image(fd)
         image.reindexObject()
         fd.close()
+
+
+def load_image(current_file):
+    from plone.namedfile.file import NamedBlobImage
+    return NamedBlobImage(
+        data=current_file.read(),
+        filename=unicode(current_file.name)
+    )
+
