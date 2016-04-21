@@ -5,7 +5,7 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add a new method to load NamedBlodImage in Plone Image Object (setuphandlers.py).
 
 
 0.1.2 (2015-06-22)
