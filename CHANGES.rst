@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.1.4 (unreleased)
+0.1.4 (2017-05-17)
 ------------------
 
 - Duplicate CSS rules for now to handle #slider -> #slider-a-la-une and
