@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Installer for the cpskin.diazotheme.trendybasic package."""
 
-version = '0.1.4'
+version = '0.1.5.dev0'
 
 from setuptools import find_packages
 from setuptools import setup
