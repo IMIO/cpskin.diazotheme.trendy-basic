@@ -5,6 +5,9 @@ Changelog
 0.1.4 (unreleased)
 ------------------
 
+- Buildout harmonization & add omelette
+  [laulaz]
+
 - Fix IMIO pypi URL
   [laulaz]
 
