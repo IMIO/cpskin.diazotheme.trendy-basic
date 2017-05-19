@@ -5,6 +5,9 @@ Changelog
 0.1.4 (unreleased)
 ------------------
 
+- Add missing theme parameters (harmonization)
+  [laulaz]
+
 - Buildout harmonization & add omelette
   [laulaz]
 
