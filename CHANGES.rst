@@ -5,6 +5,9 @@ Changelog
 0.1.4 (unreleased)
 ------------------
 
+- Fix IMIO pypi URL
+  [laulaz]
+
 - Duplicate CSS rules for now to handle #slider -> #slider-a-la-une and
   #carousel -> #carousel-a-la-une ids at the same time (#16991)
   [laulaz]
