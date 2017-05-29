@@ -5,12 +5,6 @@ Changelog
 0.1.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
-
-0.1.4 (2017-05-17)
-------------------
-
 - Ensure cpskin.theme is migrated to LESS before migrating this theme
   [laulaz]
 
@@ -25,6 +19,10 @@ Changelog
 
 - Fix IMIO pypi URL
   [laulaz]
+
+
+0.1.4 (2017-05-17)
+------------------
 
 - Duplicate CSS rules for now to handle #slider -> #slider-a-la-une and
   #carousel -> #carousel-a-la-une ids at the same time (#16991)
