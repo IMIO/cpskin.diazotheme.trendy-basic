@@ -18,7 +18,14 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
-    <!-- CPSkin theme -->
+    <genericsetup:importStep
+        name="cpskin.diazotheme.trendybasic"
+        title="cpskin.diazotheme.trendybasic special import handlers"
+        description=""
+        handler=".setuphandlers.setup_various"
+        />
+
+    <!-- Theme -->
     <plone:static directory="static" name="cpskin.diazotheme.trendybasic" type="theme" />
 
     <cmf:registerDirectory
@@ -27,11 +34,14 @@
         recursive="True"
         />
 
-    <genericsetup:importStep
-        name="cpskin.diazotheme.trendybasic"
-        title="cpskin.diazotheme.trendybasic special import handlers"
-        description=""
-        handler=".setuphandlers.setup_various"
+    <!-- Upgrades -->
+    <genericsetup:upgradeStep
+        title="cpskin.diazotheme.trendybasic theme: upgrade to LESS (v2)"
+        description="Upgrade step for cpskin.diazotheme.trendybasic theme to LESS (v2)"
+        handler=".upgradehandlers.upgrade_to_less"
+        source="1"
+        destination="2"
+        profile="cpskin.diazotheme.trendybasic:default"
         />
 
 </configure>

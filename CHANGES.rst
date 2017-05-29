@@ -11,6 +11,21 @@ Changelog
 0.1.4 (2017-05-17)
 ------------------
 
+- Ensure cpskin.theme is migrated to LESS before migrating this theme
+  [laulaz]
+
+- Complete migration to LESS
+  [laulaz]
+
+- Add missing theme parameters (harmonization)
+  [laulaz]
+
+- Buildout harmonization & add omelette
+  [laulaz]
+
+- Fix IMIO pypi URL
+  [laulaz]
+
 - Duplicate CSS rules for now to handle #slider -> #slider-a-la-une and
   #carousel -> #carousel-a-la-une ids at the same time (#16991)
   [laulaz]
