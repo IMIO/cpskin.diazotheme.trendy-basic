@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-0.1.5 (unreleased)
-------------------
+0.2 (2017-05-29)
+----------------
 
 - Ensure cpskin.theme is migrated to LESS before migrating this theme
   [laulaz]
