@@ -5,7 +5,8 @@ Changelog
 0.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Remove unused skin.
+  [bsuttor]
 
 
 0.2.1 (2017-07-12)
