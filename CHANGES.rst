@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-0.2.3 (unreleased)
+0.2.3 (2017-07-25)
 ------------------
 
-- Nothing changed yet.
+- Delete height to #visual-portal-wrapper.
+  [mgennart]
 
 
 0.2.2 (2017-07-17)
