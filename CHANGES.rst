@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-0.2.6 (unreleased)
+0.2.6 (2017-11-06)
 ------------------
 
-- Nothing changed yet.
+- Changing the column width and aligning the content in the homepage.
+  [mgennart]
 
 
 0.2.5 (2017-10-12)
