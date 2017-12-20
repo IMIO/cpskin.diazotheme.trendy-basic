@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.2.7 (unreleased)
+0.2.7 (2017-12-20)
 ------------------
 
-- Nothing changed yet.
-
+- Change width to .section-notheme #portal-header ul.navTreeLevel0.
+  [mgennart]
 
 0.2.6 (2017-11-06)
 ------------------
