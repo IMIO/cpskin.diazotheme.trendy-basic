@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.2.8 (unreleased)
+0.2.8 (2018-07-02)
 ------------------
 
-- Nothing changed yet.
-
+- Delete CSS icone ::before to portlet.
+  [mgennart]
 
 0.2.7 (2017-12-20)
 ------------------
