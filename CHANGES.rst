@@ -2,12 +2,13 @@ Changelog
 =========
 
 
-0.2.9 (unreleased)
+0.2.9 (2018-09-05)
 ------------------
 
 - Add uninstall profile
   [laulaz]
-
+- Change css for icon to portlet
+  [mgennart]
 
 0.2.8 (2018-07-02)
 ------------------
