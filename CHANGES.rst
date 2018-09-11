@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.2.10 (unreleased)
+0.2.10 (2018-09-11)
 -------------------
 
-- Nothing changed yet.
-
+- Change css for #visual-portal-wrapper.
+  [mgennart]
 
 0.2.9 (2018-09-05)
 ------------------
